@@ -1,0 +1,20 @@
+Instructions:
+
+Collecting Data:
+Run the datacollection.py script to collect data.
+Perform the hand gesture in front of the camera.
+The script will capture and save photos in the respective folders (i.e., HELLO, GOODBYE, PEACE) inside the 'data' folder.
+
+Training the Model:
+
+Upload the 'data' folder to Google's Teachable Machine website.
+Create a new image project, select 'Image Project', and import the 'data' folder.
+Follow the instructions on the website to train the model and download the Keras model and 'labels.txt' file.
+Save the Keras model and 'labels.txt' file inside the 'MODEL' folder.
+
+Testing the Model:
+
+Run the test.py script to open the camera and detect hand gestures.
+Perform the hand gesture in front of the camera.
+The script will recognize the hand gesture and display the predicted label.
+Note: Make sure to have all necessary packages and libraries installed before running the scripts.
